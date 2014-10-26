@@ -1,0 +1,9 @@
+<ion-view title="Fitness Tests">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="test in tests" href="#/tab/test/{{test.id}}">
+                {{test.name}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
